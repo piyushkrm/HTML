@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 4 | Pro</title>
+</head>
+
+<body>
+    <h2>List in HTML</h2>
+    <p>Lists are used to represent real life list data.</p>
+    <p>List types - </p>
+    <p>Unordered <br>
+        ordered</p>
+
+    <h3>Unordered</h3>
+    <ul>
+        <li>Siya</li>
+        <ul>
+            <li>Husband : Shree Ram</li>
+        </ul>
+        <li>Ram</li>
+        <ul>
+            <li>Wife : Sita</li>
+        </ul>
+    </ul>
+
+    <h3>Ordered</h3>
+    <ol>
+        <li>Bholenath</li>
+        <ol>
+            <li>Wife : Parvati</li>
+        </ol>
+        <li>Gori</li>
+        <ol>
+            <li>Husband : Bholenath</li>
+        </ol>
+    </ol>
+
+    <h2>Tables in HTML</h2>
+    <p>Tables are used to represent real life table data.</p>
+    <!--     
+    <tr></tr>
+    <td></td>
+    <th></th> -->
+
+    &lt;tr&gt; used to display table row <br>
+    &lt;td&gt; used to display table data <br>
+    &lt;th&gt; used to display table header <br>
+
+    <h2>Caption in Tables</h2>
+    <table>
+        <caption>Student Data</caption>
+        <thead>
+            <tr>
+                <th>Roll</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>87215110</td>
+                <td>8.64 CGPA</td>
+            </tr>
+            <tr>
+                <td>87215107</td>
+                <td>8.64 CGPA</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Caption in Tables</h2>
+    <caption>Student Data</caption>
+
+    <h2>thead & tbody in Tables</h2>
+    <thead>to wrap table head</thead>
+    <tbody>to wrap table body</tbody>
+
+    <h2>Colspan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>87215110</td>
+                <td>8.64 CGPA</td>
+            </tr>
+            <tr>
+                <td>87215107</td>
+                <td>8.64 CGPA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <hr>
+    <hr>
+    <h2>Form in HTML</h2>
+    <p>Forms are used to collect data from the user</p>
+    <p>Example - sign up/login/htlp requests/contact me</p>
+
+    <form>
+
+    </form>
+
+    <h2>Action in Form</h2>
+    <p>Action attribute is used to define what action needs to be performed when a frorm is submitted.</p>
+    <hr>
+    <hr>
+    <h2>Registration Form</h2>
+    <form action="/action.php">
+        <input type="text" placeholder="Enter Username">
+        <br>
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <br>
+        <label for="101">
+            <input type="radio" name="class" value="class XI" id="101">Class XI
+        </label>
+        <br>
+        <br>
+        <label for="102">
+            <input type="radio" name="class" value="class XII" id="102">Class XII
+        </label>
+        <br>
+        <h2>Select Subjects</h2>
+        <br>
+        <label for="math">
+            <input type="checkbox" name="subject" value="math" id="math">Math
+        </label>
+        <br>
+        <br>
+        <label for="DBMS">
+            <input type="checkbox" name="subject" value="DBMS" id="DBMS">DBMS
+        </label>
+        <br>
+        <br>
+        <label for="COA">
+            <input type="checkbox" name="subject" value="COA" id="COA">COA
+        </label>
+        <br>
+        <br>
+        <label for="JAVA">
+            <input type="checkbox" name="subject" value="JAVA" id="JAVA">JAVA
+        </label>
+        <br>
+        <br>
+        <h3>Select Player</h3>
+        <select name="player" id="cricket">
+            <option value="Virat">Virat</option>
+            <option value="Rohit">Rohit</option>
+            <option value="Mayank">Mayank</option>
+            <option value="Shreyash">Shreyash</option>
+            <option value="Rahul">Rahul</option>
+            <option value="Risabh">Risabh</option>
+            <option value="Radeja">Radeja</option>
+            <option value="Bumrah">Bumrah</option>
+            <option value="Kuldip">Kuldip</option>
+            <option value="Yuzi">Yuzi</option>
+            <option value="Siraj">Siraj</option>
+        </select>
+        <h3>Feedback</h3>
+        <textarea name="feedback" id="110" cols="30" rows="10"
+            placeholder="Please give your valuable feedback">Feedback</textarea>
+        <br>
+        <br>
+        <input type="submit" name="submit" id="submit">
+    </form>
+    <hr>
+    <hr>
+    <h2>iframe</h2>
+    <p>website inside website</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7zcXPCt8Ck0?si=LB1TlDGa5ktsf0GR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <hr>
+    <h2>Video Tag</h2>
+    <h3>attributes</h3>
+    <ul>
+        <li>controls</li>
+        <li>height</li>
+        <li>width</li>
+        <li>loop</li>
+        <li>autoplay</li>
+    </ul>
+    <video width="560" height="315" src="bhai.mov" controls loop>Video</video>
+</body>
+
+</html>
